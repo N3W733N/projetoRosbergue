@@ -11,11 +11,15 @@ function Header() {
       <img src={logo} />
 
       <div className="links">
-        <a href="">HOME</a>
-        <a href="">SERVIÇOS</a>
-        <a href="">EMPRESA</a>
-        <a href="">CLIENTES</a>
-        <a href="">CONTATO</a>
+        <a href="index.html#home">HOME</a>
+        <a href="index.html#servico">SERVIÇOS</a>
+        <a href="index.html#empresa">EMPRESA</a>
+        <a href="index.html#clientes">CLIENTES</a>
+        <a href="index.html#contato">CONTATO</a>
+      </div>
+
+      <div className="links">
+        <a href="">34 99189-0224</a>
       </div>
     </div>
   );

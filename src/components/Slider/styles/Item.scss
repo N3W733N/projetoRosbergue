@@ -10,3 +10,14 @@
     vertical-align: top;
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+  .item {
+    flex: 0 0 20%;
+    img {
+      height: 90px;
+      width: 100%;
+    }
+  }
+}
