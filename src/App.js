@@ -6,7 +6,7 @@ import "./App.scss";
 import logo from "./logo.svg";
 import logoIcon from "./assets/img/logoicon.png";
 // import back01 from "./assets/img/galeria3.png";
-import parceiro from "./assets/img/oie_transparent.png";
+import parceiro from "./assets/img/EmpresasParceiras.png";
 import back01 from "./assets/img/uberlandiaBackground02.jpg";
 import back02 from "./assets/img/Guindastes/1.jpg";
 import back03 from "./assets/img/Guindautos/1.jpeg";
