@@ -13,12 +13,9 @@ const Content = ({ item, onClose }) => (
     </div>
     <div className="content__area">
       <div className="content__area__container">
-        <div className="content__title">{item.title}</div>
+        {/* <div className="content__title">{item.text}</div> */}
         <div className="content__description">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-          et euismod ligula. Morbi mattis pretium eros, ut mollis leo tempus
-          eget. Sed in dui ac ipsum feugiat ultricies. Phasellus vestibulum enim
-          quis quam congue, non fringilla orci placerat. Praesent sollicitudin
+          {item.text}
         </div>
       </div>
       <button className="content__close" onClick={onClose}>

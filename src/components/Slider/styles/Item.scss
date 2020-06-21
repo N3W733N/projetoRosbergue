@@ -11,6 +11,16 @@
   }
 }
 
+@media only screen and (max-width: 768px) {
+  .item {
+    flex: 0 0 20%;
+    img {
+      height: 150px;
+      width: 100%;
+    }
+  }
+}
+
 
 @media only screen and (max-width: 600px) {
   .item {

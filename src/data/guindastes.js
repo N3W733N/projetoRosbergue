@@ -9,31 +9,36 @@ const items = [
       id: 1,
       image: img1,
       imageBg: img1,
-      title: 'Carrinho 01'
+      title: 'Carrinho bolado 01',
+      text: 'Nossa frota são de guindastes novos e semi- novos de última geração, com operadores capacitados trazendo mais segurança aos nossos clientes.',
     },
     {
       id: 2,
       image: img2,
       imageBg: img2,
-      title: 'Carrinho 01'
+      title: 'sdfdghffhfghdfhhf 01',
+      text: 'Nossa frota são de guindastes novos e semi- novos de última geração, com operadores capacitados trazendo mais segurança aos nossos clientes.',
     },
     {
       id: 3,
       image: img3,
       imageBg: img3,
       title: 'Carrinho 01',
+      text: 'Nossa frota são de guindastes novos e semi- novos de última geração, com operadores capacitados trazendo mais segurança aos nossos clientes.',
     },
     {
       id: 4,
       image: img4,
       imageBg: img4,
-      title: 'Carrinho 01'
+      title: 'Carrinho 01',
+      text: 'Nossa frota são de guindastes novos e semi- novos de última geração, com operadores capacitados trazendo mais segurança aos nossos clientes.',
     },
     {
       id: 5,
       image: img5,
       imageBg: img5,
-      title: 'Carrinho 01'
+      title: 'Carrinho 01',
+      text: 'Nossa frota são de guindastes novos e semi- novos de última geração, com operadores capacitados trazendo mais segurança aos nossos clientes.',
     },
   ];
 

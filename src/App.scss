@@ -10,11 +10,12 @@ p {
   display: flex;
 }
 
-.app {
+.App {
   display: flex;
   flex-direction: column;
   // width: 200%;
 }
+
 
 .img {
   display: flex;
@@ -35,9 +36,36 @@ p {
   height: 400px;
   // background-color: red;
   background-image: url("./assets/img/fundo_large.jpg");
+
+  .title {
+    font-size: 26px;
+    font-weight: bold;
+    margin: 0 0 0 0;
+  }
+
+  p {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .Contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 3px;
+    border-style: solid;
+    border-color: white;
+    width: 250px;
+    height: 60px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    p {
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
 }
 
-.empresa{
+.empresa {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,16 +73,21 @@ p {
   text-align: center;
   height: 350px;
   background-color: rgba(0, 0, 0, 0.6);
+
+  p {
+    padding: 0 30px 0 30px;
+  }
 }
 
 .atuacao {
   display: flex;
   flex-direction: row;
   align-items: center;
-  // justify-content: center;
+  justify-content: center;
   height: 400px;
   // background-color: red;
   background-image: url("./assets/img/fundo_large.jpg");
+  padding: 0 30px 0 30px;
 
   img {
     height: 30%;
@@ -76,11 +109,14 @@ p {
   align-items: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.6);
+  padding: 0 0 20px 0;
 }
 
 .title {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 0 30px 0;
   // align-items: center;
   // justify-content: center;
@@ -88,7 +124,7 @@ p {
   color: white;
 }
 
-.buttonUp{
+.buttonUp {
   flex: 1;
   position: fixed;
   z-index: 100;
@@ -97,6 +133,31 @@ p {
   height: 50px;
   margin-left: 93vw;
   margin-top: 90vh;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 30px 5% 30px;
+  align-items: center;
+  justify-content: center;
+  // background-color: red;
+  background-image: url("./assets/img/fundo_large.jpg");
+
+  p {
+    text-align: center;
+  }
+  img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .contato {
+    img {
+      width: 50%;
+    }
+  }
 }
 
 @media only screen and (max-width: 600px) {

@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-scroll";
 // import { Container } from './styles';
 import "./styles.scss";
 
@@ -12,14 +12,43 @@ function Header() {
 
       <div className="links">
         <a href="index.html#home">HOME</a>
-        <a href="index.html#servico">SERVIÇOS</a>
-        <a href="index.html#empresa">EMPRESA</a>
-        <a href="index.html#clientes">CLIENTES</a>
-        <a href="index.html#contato">CONTATO</a>
-      </div>
-
-      <div className="links">
-        <a href="">34 99189-0224</a>
+        <Link
+          activeClass="active"
+          to="servico"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
+          SERVIÇOS
+        </Link>
+        <Link
+          activeClass="active"
+          to="empresa"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
+          EMPRESA
+        </Link>
+        <Link
+          activeClass="active"
+          to="clientes"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
+          CLIENTES
+        </Link>
+        <Link
+          activeClass="active"
+          to="contato"
+          spy={true}
+          smooth={true}
+          duration={500}
+        >
+          CONTATO
+        </Link>
+        <a href= "https://api.whatsapp.com/send?phone=5534991890224">34 99189-0224</a>
       </div>
     </div>
   );
