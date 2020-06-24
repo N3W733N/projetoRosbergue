@@ -1,16 +1,20 @@
 h2 {
+  font-family: roboto;
   color: white;
 }
 
 p {
+  font-family: roboto;
   color: white;
 }
 
 .slider {
+  font-family: roboto;
   display: flex;
 }
 
 .App {
+  font-family: roboto;
   display: flex;
   flex-direction: column;
   // width: 200%;
@@ -38,17 +42,21 @@ p {
   background-image: url("./assets/img/fundo_large.jpg");
 
   .title {
+    font-family: roboto;
     font-size: 26px;
     font-weight: bold;
     margin: 0 0 0 0;
   }
 
   p {
+    font-family: roboto;
     font-size: 22px;
     text-align: center;
   }
 
   .Contact {
+    font-family: roboto;
+    cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,6 +74,7 @@ p {
 }
 
 .empresa {
+  font-family: roboto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -75,11 +84,13 @@ p {
   background-color: rgba(0, 0, 0, 0.6);
 
   p {
+    font-family: roboto;
     padding: 0 30px 0 30px;
   }
 }
 
 .atuacao {
+  font-family: roboto;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -94,6 +105,7 @@ p {
   }
 
   .boxDescription {
+    font-family: roboto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -104,6 +116,7 @@ p {
 }
 
 .clientes {
+  font-family: roboto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -113,6 +126,7 @@ p {
 }
 
 .title {
+  font-family: roboto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -136,6 +150,7 @@ p {
 }
 
 .contato {
+  font-family: roboto;
   display: flex;
   flex-direction: column;
   padding: 20px 30px 5% 30px;

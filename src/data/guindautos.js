@@ -14,6 +14,10 @@ import img13 from '../assets/img/Guindautos/13.jpeg';
 import img14 from '../assets/img/Guindautos/14.jpeg';
 import img15 from '../assets/img/Guindautos/15.jpeg';
 import img16 from '../assets/img/Guindautos/16.jpeg';
+import img17 from '../assets/img/Guindautos/17.jfif';
+import img18 from '../assets/img/Guindautos/18.jfif';
+import img19 from '../assets/img/Guindautos/19.jfif';
+import img20 from '../assets/img/Guindautos/20.jfif';
 
 const items = [
     {
@@ -125,6 +129,34 @@ const items = [
       id: 16,
       image: img16,
       imageBg: img16,
+      title: 'Carrinho 01',
+      text: 'Temos guindastes articulados, semi novos com maior capacidade de carga e lança do mercado. Caminhões de carroceria, que agregam agilidade e benefício ao nossos clientes.',
+    },
+    {
+      id: 17,
+      image: img17,
+      imageBg: img17,
+      title: 'Carrinho 01',
+      text: 'Temos guindastes articulados, semi novos com maior capacidade de carga e lança do mercado. Caminhões de carroceria, que agregam agilidade e benefício ao nossos clientes.',
+    },
+    {
+      id: 18,
+      image: img18,
+      imageBg: img18,
+      title: 'Carrinho 01',
+      text: 'Temos guindastes articulados, semi novos com maior capacidade de carga e lança do mercado. Caminhões de carroceria, que agregam agilidade e benefício ao nossos clientes.',
+    },
+    {
+      id: 19,
+      image: img19,
+      imageBg: img19,
+      title: 'Carrinho 01',
+      text: 'Temos guindastes articulados, semi novos com maior capacidade de carga e lança do mercado. Caminhões de carroceria, que agregam agilidade e benefício ao nossos clientes.',
+    },
+    {
+      id: 20,
+      image: img20,
+      imageBg: img20,
       title: 'Carrinho 01',
       text: 'Temos guindastes articulados, semi novos com maior capacidade de carga e lança do mercado. Caminhões de carroceria, que agregam agilidade e benefício ao nossos clientes.',
     },

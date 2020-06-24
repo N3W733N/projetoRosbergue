@@ -11,7 +11,10 @@ import img12 from '../assets/img/Remocoes/12.jpeg';
 import img13 from '../assets/img/Remocoes/13.jpeg';
 import img14 from '../assets/img/Remocoes/14.jpeg';
 import img16 from '../assets/img/Remocoes/16.jpeg';
-
+import img17 from '../assets/img/Remocoes/17.jfif';
+import img18 from '../assets/img/Remocoes/18.jfif';
+import img19 from '../assets/img/Remocoes/19.jfif';
+import img20 from '../assets/img/Remocoes/20.jfif';
 const items = [
     {
       id: 1,
@@ -101,6 +104,34 @@ const items = [
       id: 16,
       image: img16,
       imageBg: img16,
+      title: 'Carrinho 01',
+      text: 'Com equipamentos apropriados e equipe técnica especializada, realizamos remoções internas horizontais e verticais de qualquer tipo de equipamentos.',
+    },
+    {
+      id: 17,
+      image: img17,
+      imageBg: img17,
+      title: 'Carrinho 01',
+      text: 'Com equipamentos apropriados e equipe técnica especializada, realizamos remoções internas horizontais e verticais de qualquer tipo de equipamentos.',
+    },
+    {
+      id: 18,
+      image: img18,
+      imageBg: img18,
+      title: 'Carrinho 01',
+      text: 'Com equipamentos apropriados e equipe técnica especializada, realizamos remoções internas horizontais e verticais de qualquer tipo de equipamentos.',
+    },
+    {
+      id: 19,
+      image: img19,
+      imageBg: img19,
+      title: 'Carrinho 01',
+      text: 'Com equipamentos apropriados e equipe técnica especializada, realizamos remoções internas horizontais e verticais de qualquer tipo de equipamentos.',
+    },
+    {
+      id: 20,
+      image: img20,
+      imageBg: img20,
       title: 'Carrinho 01',
       text: 'Com equipamentos apropriados e equipe técnica especializada, realizamos remoções internas horizontais e verticais de qualquer tipo de equipamentos.',
     },

@@ -15,6 +15,8 @@
 }
 
 .links {
+  font-family: roboto;
+  cursor: pointer;
   display: flex;
   flex-direction: row;
   padding-left: 20px;
@@ -24,6 +26,7 @@
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-family: roboto;
   }
 }
 
@@ -37,6 +40,7 @@
   }
   
   .links {
+    cursor: pointer;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -44,6 +48,7 @@
     padding-left: 0%;
 
     a {
+      font-family: roboto;
       padding-bottom: 5%;
 
     }
@@ -63,6 +68,7 @@
   }
   
   .links {
+    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;

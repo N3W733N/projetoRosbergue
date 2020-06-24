@@ -1,4 +1,5 @@
 import React from "react";
+import "typeface-roboto";
 import { Link } from "react-scroll";
 // import { Container } from './styles';
 import "./styles.scss";
@@ -24,7 +25,7 @@ function Header() {
         <Link
           activeClass="active"
           to="empresa"
-          spy={true}
+          spy={true}  
           smooth={true}
           duration={500}
         >
@@ -48,7 +49,7 @@ function Header() {
         >
           CONTATO
         </Link>
-        <a href= "https://api.whatsapp.com/send?phone=5534991890224">34 99189-0224</a>
+        <a href= "https://api.whatsapp.com/send?phone=5534991890224">(34) 99189-0224 <br></br>(34) 3238-5050 <br></br>(34) 99266-7032</a>
       </div>
     </div>
   );
