@@ -108,11 +108,11 @@ function App() {
           <h2>QUEM SOMOS</h2>
 
           <p>
-            Fundada em 2012, a Fernandes Guindastes e Remoções juntamente a seus
-            profissionais possuem mais de 40 anos de experiencia em içamentos e
-            remoções. No princípio, nossa atividade era somente remoção
-            industrial, devido à demanda de mercado de locações, adquirimos
-            guindastes articulados e telescópicos para melhor atender nossos clientes.
+          Fundada em 2012, a Fernandes Guindastes e Remoções juntamente
+          com seus colaboradores possui mais de 40 anos de experiência
+          em içamento e remoções. No princípio, nossa atividade era somente
+          remoção industrial, porém devido à demanda de mercado de locações,
+          adquirimos guindastes articulados e telescópicos para melhor atender nossos clientes.
           </p>
         </Element>
       </Parallax>
@@ -123,9 +123,7 @@ function App() {
           <h2>ATUAÇÃO</h2>
 
           <p>
-            Atuamos em diversos segmentos como industriais, construções em geral
-            e alimentícios. Prestando serviços com equipamentos adequados
-            valorizando a segurança e a qualidade.
+          Atuamos em diversos segmentos como, industriais, alimentícios e construções em geral. Trabalhamos com equipamentos adequados valorizando a segurança e a qualidade dos serviços prestados.
           </p>
         </div>
       </div>
@@ -144,7 +142,7 @@ function App() {
           <strong>Email: </strong>comercial@fernandesguindastes.com.br
         </p>
         <p>
-          <strong>Telefones: </strong> <br></br>(34) 99189-0224 <br></br>(34) 3238-5050 <br></br>(34) 99266-7032
+          <strong>Telefones: </strong> <br></br>(34) 99189-0224 <br></br>(34) 99266-7032<br></br>(34) 3238-5050
         </p>
         <p>
           <strong>Endereço: </strong> Rua Paulo de Tarso 606 B. Maravilha

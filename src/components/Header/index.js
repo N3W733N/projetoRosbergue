@@ -3,13 +3,15 @@ import "typeface-roboto";
 import { Link } from "react-scroll";
 // import { Container } from './styles';
 import "./styles.scss";
+import { FaBeer, FaWhatsapp } from 'react-icons/fa';
 
 import logo from "../../assets/img/LOGO FERNANDES(com nome)_2.png";
+import wpp from "../../assets/icon/wppicon.png"
 
 function Header() {
   return (
     <div className="Container">
-      <img src={logo} />
+      <img src={logo}/>
 
       <div className="links">
         <a href="index.html#home">HOME</a>
@@ -20,7 +22,7 @@ function Header() {
           smooth={true}
           duration={500}
         >
-          SERVIÇOS
+          ORÇAMENTOS
         </Link>
         <Link
           activeClass="active"
@@ -48,10 +50,18 @@ function Header() {
           duration={500}
         >
           CONTATO
-        </Link>
-        <a href= "https://api.whatsapp.com/send?phone=5534991890224">(34) 99189-0224 <br></br>(34) 3238-5050 <br></br>(34) 99266-7032</a>
+        </Link><div>
+
+        <FaWhatsapp/>
+        <a href= "https://api.whatsapp.com/send?phone=5534991890224">(34) 99189-0224</a>
+        </div>
+        <a>(34) 99266-7032</a>
+        <a>(34) 3238-5050</a>
+
+        
       </div>
     </div>
+    
   );
 }
 
